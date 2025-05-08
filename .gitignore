@@ -1,0 +1,28 @@
+# dependencies
+node_modules/
+.env
+
+# Firebase files (if you don't want them public)
+firebase-debug.log
+firebase-cache/
+
+# Build files
+build/
+
+# Logs
+npm-debug.log*
+
+
+# Local environment settings
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+
+# VSCode settings
+.vscode/
+
+# Temporary files
+*.tmp
+*.swp
