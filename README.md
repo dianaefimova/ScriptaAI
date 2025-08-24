@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# ScriptaAI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ScriptaAI is an educational platform, accessible to the public for study purposes.
+The platform leverages AI technologies to enhance learning experiences for developers, offering a practical tool for gaining insights based on code input. 
 
-## Available Scripts
+Developed as part of bachelor's degree final work, the application is available for public use.
 
-In the project directory, you can run:
+https://scriptaai.web.app
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Key Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### AI Role Selection
+Users can choose from four specialized AI roles, powered by the OpenAI API. Each role tailors its response to the selected purpose:
 
-### `npm test`
+Teacher – Explains code step by step for beginners and suggests improvements.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Debugger – Identifies errors, explains why they occur, and highlights potential runtime issues.
 
-### `npm run build`
+Optimizer – Suggests performance improvements and removes unnecessary complexity.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Commenter – Automatically adds comments, explains complex logic, and helps with documentation.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To use it, users only need to:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Select a role
 
-### `npm run eject`
+2. Insert their code
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+No extra setup is required—the models are ready to assist instantly.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Code Complexity Analysis
+The application includes a custom-trained Artificial Neural Network (ANN) that evaluates code complexity. Submitted code is automatically classified as Easy, Medium, or Hard.
+This gives users quick feedback on their progress and helps identify areas for improvement.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Page overview
 
-## Learn More
+The github page contains the frontend code of the application including user interface developed with React.js and API connection to OpenAI API.
+The backend of the platform with ANN training can be viewd at https://github.com/dianaefimova/ANN-training.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
