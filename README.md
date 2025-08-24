@@ -29,12 +29,12 @@ To use it, users only need to:
 
 No extra setup is required—the models are ready to assist instantly.
 
-## Code Complexity Analysis
+### Code Complexity Analysis
 The application includes a custom-trained Artificial Neural Network (ANN) that evaluates code complexity. Submitted code is automatically classified as Easy, Medium, or Hard.
 This gives users quick feedback on their progress and helps identify areas for improvement.
 
 
-### Page overview
+# Page overview
 
 The github page contains the frontend code of the application including user interface developed with React.js and API connection to OpenAI API.
 The backend of the platform with ANN training can be viewd at https://github.com/dianaefimova/ANN-training.
